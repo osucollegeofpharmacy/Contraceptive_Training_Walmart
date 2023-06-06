@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00001110001" textdirection="ltr" textengine="Uniscribe" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0xC34601">
+  <layouts>
+    <layout name="npnxnanbsnfns00001110001" font="Lato" controllayout="npnxnanbsnfns00001110001" colorscheme="npnxnanbnsnfns00001110001" string_table="npnxnanbnsnfns00001110001" />
+    <layout name="pxabnsnfns00001110001" font="Lato" controllayout="pxabnsnfns00001110001" colorscheme="npnxnanbnsnfns00001110001" string_table="npnxnanbnsnfns00001110001" />
+    <layout name="npxnabnsnfns00001110001" font="Lato" controllayout="npxnabnsnfns00001110001" colorscheme="npnxnanbnsnfns00001110001" string_table="npnxnanbnsnfns00001110001" />
+    <layout name="npnxnanbnsnfns00001110001" font="Lato" controllayout="npnxnanbnsnfns00001110001" colorscheme="npnxnanbnsnfns00001110001" string_table="npnxnanbnsnfns00001110001" />
+    <layout name="pxabnsnfns00001110000" font="Lato" controllayout="pxabnsnfns00001110000" colorscheme="npnxnanbnsnfns00001110001" string_table="npnxnanbnsnfns00001110001" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="false">
+            <options>
+              <option name="title_text" value="Contraceptive_Training_Feb2023" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="right" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="outline" value="true" group="linkright" />
+              <listitem name="resources" value="true" group="linkright" />
+              <listitem name="glossary" value="true" group="linkright" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="true" />
+          <option name="tooltips" value="false" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="false" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="search" value="false" />
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Lato" />
+            </options>
+          </option>
+          <option name="settings" value="false" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00001110001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001110001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00001110001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00001110001">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00001110000">
+      <control name="volume" enabled="false" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="true" />
+      <control name="glossary" enabled="true" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="true">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00001110001">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC34601" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC34601" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00001110001">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="three_image_items">items</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="three_image_visited">visited</string>
+      <string id="three_image_of">of</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_item">item</string>
+      <string id="three_image_interaction_step">step</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="acc_active">active</string>
+      <string id="alt_key">Alt</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to Menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="closed_captions_tip">Toggle captions</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="enter_key">Enter</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">GLOSSARY</string>
+      <string id="terms">Terms</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="action">Action</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next slide</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous slide</string>
+      <string id="replay_shortcut">Replay slide</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit slide</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
+      <string id="togglezoom">Switch zoom modes</string>
+      <string id="outline">CONTENTS</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="mute_tip">Mute</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="next_slide_tip">Next slide</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="pause_tip">Pause</string>
+      <string id="acc_play">play</string>
+      <string id="play_tip">Play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="previous_slide_tip">Previous slide</string>
+      <string id="question_list">Question List</string>
+      <string id="replay_tip">Replay</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">RESOURCES</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_toggle">Search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="search">Search...</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="settings_tip">Settings</string>
+      <string id="shift_key">Shift</string>
+      <string id="acc_skipnavigation">Skip Navigation. Hit enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="spacebar_key">Space</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="submit_tip">Submit</string>
+      <string id="unmute_tip">Unmute</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+    <font name="Arial">
+      <files>
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5odKYvKyrwd" displaytext="Welcome" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5odKYvKyrwd.6pzIet5lScG" displaytext="Welcome to the Course" expand="false" type="slide" />
+            <slidelink slideid="_player.5odKYvKyrwd.5iyhtUfFFVQ" displaytext="Statement on Inclusion" expand="false" type="slide" />
+            <slidelink slideid="_player.5odKYvKyrwd.5YgPKndY0UK" displaytext="Course Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5odKYvKyrwd.6bE0MDJ4VKt" displaytext="Course Modules and Navigation" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5XKC5IKJHrT" displaytext="MODULE 1: Foundation of Women’s Health and Birth Control Options" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5XKC5IKJHrT.6Ez6tEZxgZo" displaytext="Module Overview and Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.5cpVfcFFA4O" displaytext="The Importance of Family Planning and Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6AlDLFKD5vS" displaytext="Preconception Health" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6JmVsIl1Ve1" displaytext="Preconception Health (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6i3KVGFstsN" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6YLuooAnTyv" displaytext="Helping Women Prevent Pregnancy" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6jkPPfiwbwe" displaytext="Importance of Being Able to Provide Hormonal Birth Control in Pharmacies" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.5sCmBcPfTmt" displaytext="Contraceptive Options" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.5zPLrkSnaFg" displaytext="Contraceptive Options: Permanent Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6dertGIHUW2" displaytext="Contraceptive Options: Long-Acting Reversible Contraception (LARC)" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6Im7JH5dOk1" displaytext="Contraceptive Options: Copper Intrauterine Device (IUD)" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.5zkSqG3g933" displaytext="Contraceptive Options: Levonorgestrel IUD" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6GXv4AhqX4i" displaytext="Contraceptive Options: Etonogestrel Implant" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6oe9WOBxU6F" displaytext="Contraceptive Options: Hormonal Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.5laBjuHamZ3" displaytext="Contraceptive Options: Oral Contraceptive Pill" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6rnJg9oVusL" displaytext="Contraceptive Options: Contraceptive Patch" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6c8za2x2xV0" displaytext="Contraceptive Options: Vaginal Ring" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.5afK8ex62fq" displaytext="Contraceptive Options: Medroxyprogesterone (MP) Injection" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6RQNMJ8ra4E" displaytext="Contraceptive Options: Emergency Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6czPa26KVdU" displaytext="Contraceptive Options: Barrier Methods" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6GRuXO0rmZP" displaytext="Contraceptive Options: Natural Family Planning" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6BAYdKCMDyb" displaytext="Contraceptive Options: Natural Family Planning (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6ZaMCBdPz4L" displaytext="Patient Case" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.6LssslTPsMi" displaytext="Resources" expand="false" type="slide" />
+            <slidelink slideid="_player.5XKC5IKJHrT.5sJGkcKRzx3" displaytext="References" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6FrlvrTMovS" displaytext="MODULE 2: Pharmacology and Mechanism of Hormonal Contraception" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6FrlvrTMovS.64C7G02L9jC" displaytext="Module Overview and Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6FrlvrTMovS.67orPv4vCak" displaytext="Video Lecture" expand="false" type="slide" />
+            <slidelink slideid="_player.6FrlvrTMovS.6P1VtNfpBg2" displaytext="References" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.6KQkR3U0IL1" displaytext="MODULE 3: Therapeutics of Self-Administered Hormonal Contraception" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.6KQkR3U0IL1.6fuM3ONRKt0" displaytext="Module Overview and Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6nhtxD0DLbY" displaytext="Key Takeaway Points" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6qcqWqzo48I" displaytext="Methods of Self-Administered Hormonal Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.5lWtUU95w1W" displaytext="Types of Oral Pills Available" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6mZYS5yKBga" displaytext="Progestin-Only Pills " expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6BTw347pLKC" displaytext="Which Type of Pill to Start With?" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.5mbSoh6MgmK" displaytext="Types of Monophasic Pills" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.5XIYVu736tG" displaytext="Types of Estrogens" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6At6VjwIhF6" displaytext="Types of Progestins" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.5tsa9jzc7Cl" displaytext="Properties of Progestins and Their Role Clinically" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6ng7HvqdVKl" displaytext="Common Side Effects of CHCs and How to Manage Them" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6EKlL7ofIjG" displaytext="Manage Breakthrough Bleeding" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.64YxCP55JXK" displaytext="Managing Side Effects: Breakthrough Bleeding" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6dxglnSfNvC" displaytext="Serious Adverse Events" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6X0BiP1sfKZ" displaytext="Side Effect Misconceptions" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.5X6wqCMKHtx" displaytext="When to Start Oral Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6ma0kcFHb7c" displaytext="Importance of Adherence" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6NBrdfiPitg" displaytext="Counseling on OCP Missed Pills" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.5rdfzc1aaBi" displaytext="Identify a Back-Up Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.5lBWLLFA9yB" displaytext="Antibiotics and Combined Hormonal Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6YfrbPWYIrx" displaytext="Counseling Points for New Starts of Combined Oral Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.5YEcOc7TQjM" displaytext="Counseling Points for Continuing Users" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.5XNbT4WQGPW" displaytext="Other Self-Administered Hormonal Methods" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6n94b1Z7kxX" displaytext="Transdermal Patch (Brand Name: Ortho Evra)" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6YoCYfj2rsb" displaytext="Vaginal Ring (Brand Name: Nuva Ring)" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6POamREBlcx" displaytext="Extended and Continuous Regimens" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.5kaMFF7vSVs" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6hRSOyejId5" displaytext="References" expand="false" type="slide" />
+            <slidelink slideid="_player.6KQkR3U0IL1.6F50Rbmx7QF" displaytext="Resources" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5mmMOfQeiGm" displaytext="MODULE 4: Assessing the Risks vs. Benefits of Combined Hormonal Contraception" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5mmMOfQeiGm.6MhwKiKuWDf" displaytext="Module Overview and Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.6G6dr4WrSbF" displaytext="Benefits of Hormonal Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.6UZQIpOeWTj" displaytext="CHC Use for Acne" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.6KnM02zTFFe" displaytext="Serious Risks of Combined Hormonal Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.6EZegz9HXWB" displaytext="Putting the Risk for Clots in Perspective" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.5xzTBwk6Yzq" displaytext="CDC’s US Medical Eligibility Criteria (US MEC)" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.5trZLEd9pZ2" displaytext="Sample of Category 3 and 4 Contraindications" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.5o8ffeajHK6" displaytext="The Direct Access Study" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.5WteA1iRN5w" displaytext="Questionnaire Compared to the US MEC Interactive" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.6M7ig6mHsID" displaytext="Questionnaire Compared to the US MEC Interactive (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.67QyLmcJRqd" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.5ghI5QQadsx" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.5f6HwJdlZZP" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.6OmSFcIKNCm" displaytext="Ruling out a Possible Pregnancy" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.5xtP8tO47qk" displaytext="Hormonal Contraception in Obese Women" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.6cGDRv8EcWt" displaytext="Hormonal Contraception in Breastfeeding Women" expand="false" type="slide" />
+            <slidelink slideid="_player.5mmMOfQeiGm.6rQCuKoVDqj" displaytext="Resources" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5yNFRd9ZnFm" displaytext="MODULE 5: Patient Care Process and Business Considerations" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5yNFRd9ZnFm.5aop24n5zQX" displaytext="Module Overview and Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5iCHdmiP8Xc" displaytext="JCPP Pharmacists&amp;apos; Patient Care Process" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6oPMLg14B0k" displaytext="Sample Workflow - Community Pharmacy" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.65JfZNGiZFo" displaytext="Workflow Steps Corresponding to the Patient Care Process" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5kRh0wEPVs7" displaytext="Patient Case" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6HnVdIV62M3" displaytext="Collect" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.63rTuIbKa7w" displaytext="Collect and Assess" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6PPWzrVYR25" displaytext="Patient Case (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6JO8Zwg2Xva" displaytext="Plan, Implement and Follow-Up" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.629Bj3GqBHf" displaytext="Patient Case (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5pUJcvdvoDV" displaytext="Managing Side Effects" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6gVe848H9my" displaytext="Patient Case (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6N0LqG03ec7" displaytext="Patient Case (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6R9JyWE6Heh" displaytext="Patient Case (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6KRRXDRhZZo" displaytext="Patient Case (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5XJ0SpnfWxw" displaytext="Patient Case (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6Tjmt7vJQqb" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6JP1jhzbkk7" displaytext="Patient Case (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6SJGIEehvRo" displaytext="Patient Case (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.60LycC7xA67" displaytext="Quiz" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.605JF0grlHW" displaytext="Patient Case (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6cfWhTTx6ZN" displaytext="Business Considerations" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6D5EsI2bduF" displaytext="Professional Liability" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5zeOVLNlhGF" displaytext="Communicating with Patients" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5gU45QptTaC" displaytext="Communicating with Patients (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6STzsQvnlct" displaytext="Communicating with Patients (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6gPG0Zo5q22" displaytext="Communicating with Patients (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5gktcY40c6q" displaytext="Communicating with Patients (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5kY596goPMB" displaytext="Communicating with Patients (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5oBHfrmoR0E" displaytext="Showing Empathy for the Patient" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5fu1HR15f5a" displaytext="Identifying and Reporting Abuse" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.5vnVuSMr4vl" displaytext="Resources" expand="false" type="slide" />
+            <slidelink slideid="_player.5yNFRd9ZnFm.6BEZPC67efD" displaytext="References" expand="false" type="slide" />
+          </links>
+        </slidelink>
+        <slidelink slideid="_player.5bEgsCAGXyN" displaytext="MODULE 6: Medroxyprogesterone Injection" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5bEgsCAGXyN.6JbafOOhCRr" displaytext="Module Overview and Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.5YfZkm7Icu4" displaytext="Comparing DMPA to Other Methods of Self-Administered Hormonal Contraception" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.6pVcWFx90OM" displaytext="Disadvantages and Side Effects of DMPA" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.6Y9SbA50MJr" displaytext="US MEC Category 3 and 4 for DMPA" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.5wEYRAi7V8L" displaytext="Black Box Warning for Reduced Bone Mineral Density" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.6a639UR1wdM" displaytext="Other DMPA Considerations" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.6F0F8ratlPN" displaytext="DMPA Administration" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.6Z3DKwdFUYl" displaytext="DMPA Administration Video" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.6pfszU1cq5Q" displaytext="Final Counseling Points for DMPA" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.5XFlqiRFs6z" displaytext="Progestin-Only Contraceptive Methods and the Patient Assessment Questionnaire" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.5coRFCyoTye" displaytext="Progestin-Only Contraceptive Methods and the Patient Assessment Questionnaire (Cont.)" expand="false" type="slide" />
+            <slidelink slideid="_player.5bEgsCAGXyN.5ZQUJk6NHsO" displaytext="References" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="&lt;p align='left'&gt;&lt;font face='Lato' style='font-size: 11px;' size='11' color='#BABBBA'&gt;It is very important to be informed and stay up to date on the CDC&amp;#8217;s guidelines. Below you will find links, as well as important documents to review.&lt;/font&gt;&lt;/p&gt;">
+    <resources>
+      <resource url="story_content/external_files/Key Take-Away Points.pdf" image="story_content/5XN7Epb2imu.png" title="Key Take-Away Points" />
+      <resource url="story_content/external_files/Components of the Well Woman Visit.pdf" image="story_content/5VNFccOO0jR.png" title="Components of the Well Woman Visit" />
+      <resource url="story_content/external_files/Frequently Asked Questions - Contraceptive Prescribing 12.2017.pdf" image="story_content/5ng1eSoEuRs.png" title="Frequently Asked Questions" />
+      <resource url="story_content/external_files/Self Assessment Questionnaire compared to the US MEC Final Version.pdf" image="story_content/5WHOx0WwgLB.png" title="Self Assessment Questionnaire compared to the US MEC" />
+      <resource url="https://www.cdc.gov/reproductivehealth/contraception/contraception_guidance.htm" image="story_content/url.png" title="CDC Contraceptive Guidance for Health Care Providers" />
+      <resource url="https://www.cdc.gov/reproductivehealth/contraception/mmwr/mec/summary.html" image="story_content/url.png" title="US MEC App" />
+      <resource url="https://www.oregon.gov/oha/PH/HEALTHYPEOPLEFAMILIES/REPRODUCTIVESEXUALHEALTH/HEALTHEDUCATION/Pages/Birth-Control-Education.aspx" image="story_content/url.png" title="OHA Birth Control Fact Sheet" />
+    </resources>
+  </resource_data>
+  <transcript_data />
+  <glossary_data>
+    <terms>
+      <term title="ACHES">A: abdominal &amp; stomach pain C: chest pain including shortness of breath H: headaches (severe) E: eye problems (defined as blurred or loss of vision) S: swelling or aching in the legs or thighs  </term>
+      <term title="ACOG">American Congress of Obstetricians and Gynocologists</term>
+      <term title="Amenorrhea">Lack of menses or period</term>
+      <term title="Breakthrough bleeding (BTB)">Bleeding from the uterus occurring between menstrual periods, a side effect of some contraceptives.</term>
+      <term title="Cardiovascular Risk Factors">- Family history
+- Hypertension
+- Dyslipidemia
+- Obesity
+- Diabetes mellitus
+- Personal history: preeclampsia, gestational diabetes, pregnancy-induced hypertension
+- Sedentary lifestyle</term>
+      <term title="CDC">Centers for Disease Control</term>
+      <term title="CHC">Combined Hormonal Contraception (contains an estrogen and progestin)</term>
+      <term title="Cholestasis">Decreased or absent flow of bile</term>
+      <term title="COC">Combined Oral Contraceptive (contains an estrogen and progestin)</term>
+      <term title="Combined Hormonal Contraceptives (CHCs)">Combined Hormonal Contraceptives</term>
+      <term title="Depot Medroxyprogesterone Acetate">Depot Medroxyprogesterone Acetate (DMPA), brand name Depo Provera™, is a progestin-only injectable contraceptive that pharmacists may be able to directly prescribe. </term>
+      <term title="DMPA">Depot Medroxyprogesterone Acetate, (DMPA), brand name Depo Provera™, is a progestin-only injectable contraceptive that pharmacists may be able to directly prescribe.</term>
+      <term title="Dysmenorrhea">Painful menses</term>
+      <term title="EC">Emergency Contraception</term>
+      <term title="EE">Ethinyl Estradiol</term>
+      <term title="FAM">Fertility Awareness-based Methods</term>
+      <term title="Family Planning">Family planning allows individuals and couples to anticipate and attain their desired number of children and the spacing and timing of their births through the use of contraceptive methods and the treatment of infertility.</term>
+      <term title="FDA">Food and Drug Administration</term>
+      <term title="Health/Risk Assessment">- Hygiene (including dental), fluoride supplementation
+- Injury prevention: exercise and sports safety, weapons, hearing, occupational and recreational hazards, safe driving practices, helmet use
+- Skin exposure to UV rays
+- Tobacco, alcohol, and other drug use
+- Piercing and tattooing
+- Suicide: depressive symptoms</term>
+      <term title="HPO">Hypothalamus-Pituitary-Ovaries</term>
+      <term title="HPV">Human Papilloma Virus</term>
+      <term title="IUD">Intra-Uterine Device</term>
+      <term title="LAM">Lactation Amenorrhea Method</term>
+      <term title="LARC">Long-Acting Reversible Contraception</term>
+      <term title="Long Acting Reversible Contraception (LARC)">Long Acting Reversible Contraception</term>
+      <term title="MEC">Medical Eligibility Criteria for Contraceptive Use</term>
+      <term title="Menorrhagia">Menses that have an abnormally high amount of blood loss</term>
+      <term title="NFP">Natural Family Planning</term>
+      <term title="OCP">Oral Contraceptive Pill</term>
+      <term title="Oligomenorrhea">Unpredictable or irregular menses</term>
+      <term title="OTC">Over the Counter</term>
+      <term title="PCOS">Polycystic Ovarian Syndrome</term>
+      <term title="PCP">Primary Care Provider</term>
+      <term title="Perfect Use">Estimates the effectiveness of a method (or methods) when proper use (consistent and correct) occurs upon every act of intercourse.  Failure due to contraceptive alone.</term>
+      <term title="PK">Parmacokinetics</term>
+      <term title="Placebo Pills">Inert pills that do not contain any active ingredients and are included within most oral contraceptive pill packs.  They act as place-holders that allow for a withdrawal bleed to occur.  This is similar to, but not the same as menses or a period.  Most pill packs have 7 placebo pills, but some have fewer or none.</term>
+      <term title="PMS">Pre-menstrual Syndrome</term>
+      <term title="POP">Progestin-Only Pills</term>
+      <term title="Progestin-only">Any method of hormonal contraception that only contains progestin</term>
+      <term title="Psychosocial Evaluation">- Suicide: depressive symptoms
+- Interpersonal/family relationships
+- Sexual orientation
+- Personal goal development
+- Behavioral/learning disorders
+- Emotional, physical, and sexual abuse by family or partner
+- Intimate partner violence
+- School experience
+- Peer relationships
+- Acquaintance rape prevention
+- Bullying
+- Work satisfaction
+- Lifestyle / stress
+- Sleep disorders
+- Advance directives (in the elderly population)
+
+</term>
+      <term title="SPR">Selected Practice Recommendations</term>
+      <term title="STI">Sexually Transmitted Infection</term>
+      <term title="Typical Use">Estimates the effectiveness of a method (or methods) for the average person who does not always use contraceptive(s) correctly or consistently.  Takes into account the ability (or inability) of the user to follow directions.  Failure due to contraceptive and user failure.</term>
+      <term title="Unintended Pregnancy">A pregnancy that is either mistimed or unwanted at the time of conception.</term>
+      <term title="US MEC">US Medical Eligibility Criteria for Contraceptive Use</term>
+      <term title="VTE">Venous Thrombo-Embolism</term>
+      <term title="WHO">World Health Organization</term>
+    </terms>
+  </glossary_data>
+</bwFrame>
